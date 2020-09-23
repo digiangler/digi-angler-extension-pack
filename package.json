@@ -6,10 +6,54 @@
     "name": "Hiroshi Yamamoto"
   },
   "description": "Only Digi-Angler's member use these extensions!",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "engines": {
     "vscode": "^1.49.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digiangler/digi-angler-extension-pack"
+  },
+  "bugs": {
+    "url": "https://github.com/digiangler/digi-angler-extension-pack/issues"
+  },
+  "galleryBanner": {
+    "color": "#00E8DC",
+    "theme": "dark"
+  },
+  "icon": "images/icon/icon.png",
+  "keywords": [
+    "digi-angler",
+    "snippets",
+    "node",
+    "deno",
+    "html",
+    "css",
+    "scss",
+    "javascript",
+    "python",
+    "go",
+    "markdown",
+    "docker",
+    "firebase"
+  ],
+  "badges": [
+    {
+      "url": "https://img.shields.io/twitter/follow/digiangler?style=social",
+      "href": "https://twitter.com/digiangler",
+      "description": "Follow me!"
+    },
+    {
+      "url": "https://img.shields.io/website?color=00e8dc&down_color=333333&down_message=Follow%20me%21&label=note&logo=Digi-Angler&logoColor=333333&up_color=00e8dc&up_message=Follow%20me%21&url=https%3A%2F%2Fnote.com%2Fdigiangler777",
+      "href": "https://note.com/digiangler777",
+      "description": "Follow me!"
+    },
+    {
+      "url": "https://img.shields.io/website?color=00e8dc&down_color=333333&down_message=Follow%20me%21&label=Medium&logo=Digi-Angler&logoColor=333333&up_color=00e8dc&up_message=Follow%20me%21&url=https%3A%2F%2Fmedium.com%2F%40digiangler",
+      "href": "https://medium.com/@digiangler",
+      "description": "Follow me!"
+    }
+  ],
   "categories": [
     "Themes"
   ],
@@ -71,48 +115,5 @@
     "visualstudioexptteam.vscodeintellicode",
     "wakatime.vscode-wakatime",
     "yzhang.markdown-all-in-one"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/digiangler/digi-angler-extension-pack"
-  },
-  "bugs": {
-    "url": "https://github.com/digiangler/digi-angler-extension-pack/issues"
-  },
-  "galleryBanner": {
-    "color": "#09131b",
-    "theme": "dark"
-  },
-  "icon": "images/icon/icon.png",
-  "keywords": [
-    "digi-angler",
-    "snippets",
-    "node",
-    "deno",
-    "html",
-    "css",
-    "scss",
-    "javascript",
-    "python",
-    "go",
-    "markdown",
-    "docker"
-  ],
-  "badges": [
-    {
-      "url": "https://img.shields.io/twitter/follow/digiangler?style=social",
-      "href": "https://twitter.com/digiangler",
-      "description": "Follow me!"
-    },
-    {
-      "url": "https://img.shields.io/website?color=00e8dc&down_color=333333&down_message=Follow%20me%21&label=note&logo=Digi-Angler&logoColor=333333&up_color=00e8dc&up_message=Follow%20me%21&url=https%3A%2F%2Fnote.com%2Fdigiangler777",
-      "href": "https://note.com/digiangler777",
-      "description": "Follow me!"
-    },
-    {
-      "url": "https://img.shields.io/website?color=00e8dc&down_color=333333&down_message=Follow%20me%21&label=Medium&logo=Digi-Angler&logoColor=333333&up_color=00e8dc&up_message=Follow%20me%21&url=https%3A%2F%2Fmedium.com%2F%40digiangler",
-      "href": "https://medium.com/@digiangler",
-      "description": "Follow me!"
-    }
   ]
 }
