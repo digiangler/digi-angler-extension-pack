@@ -2,8 +2,11 @@
   "name": "digi-angler-extension-pack",
   "displayName": "Digi-Angler Extension Pack",
   "publisher": "Digi-Angler",
+  "author": {
+    "name": "Hiroshi Yamamoto"
+  },
   "description": "Only Digi-Angler's member use these extensions!",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.49.0"
   },
@@ -12,6 +15,7 @@
   ],
   "extensionPack": [
     "aaron-bond.better-comments",
+    "abusaidm.html-snippets",
     "alefragnani.numbered-bookmarks",
     "alefragnani.project-manager",
     "CoenraadS.bracket-pair-colorizer-2",
@@ -21,6 +25,7 @@
     "Digi-Angler.digi-angler-dark-theme",
     "dsznajder.es7-react-js-snippets",
     "eamodio.gitlens",
+    "ecmel.vscode-html-css",
     "editorconfig.editorconfig",
     "eg2.vscode-npm-script",
     "esbenp.prettier-vscode",
@@ -66,5 +71,51 @@
     "visualstudioexptteam.vscodeintellicode",
     "wakatime.vscode-wakatime",
     "yzhang.markdown-all-in-one"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digiangler/digi-angler-extension-pack"
+  },
+  "bugs": {
+    "url": "https://github.com/digiangler/digi-angler-extension-pack/issues"
+  },
+  "galleryBanner": {
+    "color": "#09131b",
+    "theme": "dark"
+  },
+  "icon": "images/icon/icon.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "digi-angler",
+    "snippets",
+    "node",
+    "deno",
+    "html",
+    "css",
+    "scss",
+    "javascript",
+    "python",
+    "go",
+    "markdown",
+    "docker"
+  ],
+  "badges": [
+    {
+      "url": "https://img.shields.io/twitter/follow/digiangler?style=social",
+      "href": "https://twitter.com/digiangler",
+      "description": "Follow me!"
+    },
+    {
+      "url": "https://img.shields.io/website?color=00e8dc&down_color=333333&down_message=Follow%20me%21&label=note&logo=Digi-Angler&logoColor=333333&up_color=00e8dc&up_message=Follow%20me%21&url=https%3A%2F%2Fnote.com%2Fdigiangler777",
+      "href": "https://note.com/digiangler777",
+      "description": "Follow me!"
+    },
+    {
+      "url": "https://img.shields.io/website?color=00e8dc&down_color=333333&down_message=Follow%20me%21&label=Medium&logo=Digi-Angler&logoColor=333333&up_color=00e8dc&up_message=Follow%20me%21&url=https%3A%2F%2Fmedium.com%2F%40digiangler",
+      "href": "https://medium.com/@digiangler",
+      "description": "Follow me!"
+    }
   ]
 }
